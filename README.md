@@ -8,7 +8,7 @@ Licensed with Apache2.0
 
 ## Preview
 
-![alt tag](https://tbd)
+![Sample Resume PNG](https://raw.githubusercontent.com/bolbken/bw-resume/master/bw-resume.png)
 
 ## Dependencies
 
@@ -17,9 +17,9 @@ Licensed with Apache2.0
 
 ## Availability
 
-1. PDF[as a direct download](https://tbd)
-2. **Overleaf**.com - [compilable online](https://tbd)
-3. **ShareLatex**.com (v1 fonts changes) - [compilable online](https://tbd)
+1. PDF [download](https://raw.githubusercontent.com/bolbken/bw-resume/master/bw-resume.pdf)
+<!-- 2. **Overleaf**.com - [compilable online](https://tbd)
+3. **ShareLatex**.com (v1 fonts changes) - [compilable online](https://tbd) -->
 
 ## Known Issues:
 
