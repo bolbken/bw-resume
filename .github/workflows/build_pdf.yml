@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    name: Build and Release
+    name: Build and Tag
     runs-on: ubuntu-latest
 
     steps:
@@ -48,7 +48,5 @@ jobs:
         with:
           node-version: 12
 
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release
+      - name: Tag
+        run: npx standard-version
