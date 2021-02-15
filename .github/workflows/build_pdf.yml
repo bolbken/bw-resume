@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    name: Build and Tag
+    name: Build and Release
     runs-on: ubuntu-latest
 
     steps:
@@ -50,3 +50,11 @@ jobs:
 
       - name: Tag
         run: npx standard-version
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            LICENSE
+            *.pdf
