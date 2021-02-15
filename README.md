@@ -12,7 +12,7 @@ Licensed with Apache2.0
 
 ## Dependencies
 
-1. Compiles only with **XeTeX** and required **BibTex** for compiling publications and the .bib filetype.
+1. Compiles only with **XeTeX**
 2. Fonts TBD
 
 ## Availability
@@ -25,7 +25,6 @@ Licensed with Apache2.0
 
 1. Overflows onto second page if any column's contents are more than the vertical limit
 2. Hacky space on the first bullet point on the second column.
-3. Hacky redefinition of \refname to omit 'References' text for publications in the MacFonts version.
 
 ## License
 

@@ -12,10 +12,6 @@
 \usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry}
 \usepackage[hidelinks]{hyperref}
 
-% Publications
-\usepackage{cite}
-\renewcommand\refname{\vskip -1.5cm}
-
 % Color definitions
 \usepackage[usenames,dvipsnames]{xcolor} 
 \definecolor{date}{HTML}{666666} 
