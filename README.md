@@ -1,6 +1,6 @@
 # bw-resume
 
-![PDF Build](https://github.com/bolbken/bw-resume/workflows/Build%20and%20commit%20PDF/badge.svg?branch=master)
+![Build PDF](https://github.com/bolbken/bw-resume/workflows/Build%20PDF/badge.svg)
 
 A personal black and white resume forked from the original (@deedy) [repository](https://github.com/deedy/Deedy-Resume) and modified with my information.
 
