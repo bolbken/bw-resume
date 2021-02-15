@@ -1,0 +1,45 @@
+{
+  "name": "bw-resume",
+  "version": "1.0.0",
+  "private": true,
+  "description": "![Build PDF](https://github.com/bolbken/bw-resume/workflows/Build%20PDF/badge.svg)",
+  "main": "index.js",
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bolbken/bw-resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache20",
+  "bugs": {
+    "url": "https://github.com/bolbken/bw-resume/issues"
+  },
+  "homepage": "https://github.com/bolbken/bw-resume#readme",
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/github",
+        {
+          "assets": [
+            {
+              "path": "LICENSE",
+              "label": "License"
+            },
+            {
+              "path": "bw-resume.pdf",
+              "label": "PDF"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "semantic-release": "^17.3.9"
+  }
+}
