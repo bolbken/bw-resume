@@ -1,5 +1,5 @@
 % Intro Options
-\ProvidesClass{deedy-resume-openfont}[2014/04/30 CV class]
+\ProvidesClass{bw-resume}[2014/04/30 CV class]
 \NeedsTeXFormat{LaTeX2e}
 \DeclareOption{print}{\def\@cv@print{}}
 \DeclareOption*{%
@@ -53,6 +53,8 @@ Last Updated on \today
 \titlespacing{\section}{0pt}{0pt}{0pt} 
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
 \newcommand{\sectionsep}{\vspace{8pt}}
+\newcommand{\subsectionsep}{\vspace{8pt}}
+\newcommand{\locationsep}{\vspace{6pt}}
 
 % Headings command
 \titleformat{\section}{\color{headings}
